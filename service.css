@@ -1,0 +1,44 @@
+ body{
+    margin:0;
+    padding:50px 20px; 
+    font-family:sans-serif;
+    background-color:rgb(248, 249, 250) ;
+} 
+.image-holder img
+{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.image-holder{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-bottom: 25px;
+}
+.service-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 0 20px;
+    
+}
+.service-card {
+    background: rgb(251, 204, 211);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+     box-shadow: 0 4px 10px rgba(0,0,0,0.05); 
+}
+
+.main-heading{
+    font-family:sans-serif;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color:rgb(0, 77, 64);
+    text-align: center;
+}

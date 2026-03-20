@@ -1,0 +1,73 @@
+body{
+    width:100%;
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background-color:rgb(255, 255, 255);
+}
+.about-box{
+    width:80%;
+    height:80vh; 
+    margin:5vh auto;
+    padding:20px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(252, 228, 236);
+
+}
+.about-logo{
+       display: flex;
+     justify-content: center;
+}
+
+.about-logo img{
+    width:300px;
+    height:auto;
+    border-radius: 30px;
+     margin-left: 60px; 
+}
+.text-area{
+     flex:1; 
+     display: flex; 
+     flex-direction: column;
+     justify-content: center;
+    padding-left: 80px;
+    align-items:flex-start;
+    text-align: justify;
+}
+.text-area h1{
+    font-family: Playfair Display;
+    margin-top:-30px;
+    margin-bottom:25px ;
+    font-weight:bold ;
+    color: rgb(0, 105, 92);
+    font-size: 45px;
+}
+.text-area p{
+    font-family: Poppins;
+    color:rgb(44, 62, 80);
+    font-size: 18px;
+    max-width: 600px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+
+}
+.btn{
+  display:inline-block;
+  padding:8px 15px;
+  background-color:rgb(0, 105, 92);
+  color: rgb(255, 255, 255);
+  justify-content:center;
+   border-radius: 15px;
+  text-decoration: none !important;
+   margin-top: 40px; 
+   
+}
+.btn:hover{
+     
+    background-color: rgb(0, 77, 64);
+}
+
+

@@ -1,0 +1,99 @@
+body{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding:0;
+    display: flex;
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    justify-content:center;
+    align-items: center;
+    min-height:100vh;
+    
+}
+.form-box{
+    width:100%;
+    max-width: 500px;
+    padding:40px;
+    background-color:rgb(217, 186, 247);
+    box-shadow:0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px; 
+
+}
+.h2{
+   color: rgb(250, 181, 200); 
+   font-size: 18px;
+   text-align: center;
+   margin-bottom: 30px;
+
+}
+.input-box{
+    margin-bottom: 20px;
+}
+.input-box input,
+.input-box select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(157, 232, 232);
+    border-radius: 4px;
+    font-size: 15px;
+     box-sizing: border-box;
+    outline: none;
+}
+.input-box input:focus,
+.input-box select:focus{
+    background-color: rgb(236, 152, 198);
+}
+.submit-btn{
+    background-color: rgb(0, 128, 0);
+    color: rgb(255, 255, 255);
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 20px auto 0;
+
+}
+.icon img{
+    width:40px;
+    height:40px
+}
+
+.main-box{
+    display:flex;
+    gap: 30px; 
+    width: 90%;
+    max-width: 1000px;
+}
+.conduct-box{
+    flex: 1; 
+    background-color:rgb(217, 186, 247);
+    padding: 40px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 15px; 
+    
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.info-item{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    margin-bottom: 25px;
+    
+}
+.info-item p{
+    margin:0;
+    font-size: 14px;
+    
+}
+h3{
+    text-align: center;
+    margin-bottom: 80px;
+}
+    
+ 
+
+
